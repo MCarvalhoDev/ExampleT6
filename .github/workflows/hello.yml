@@ -14,7 +14,12 @@ jobs:
 
       - name: Run a one-line script
         run: echo Hello, world!
-
+          
+  segundoHello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checktout
+        uses: actions/checkout@v4
 
       - name: Run a multi-line script
         run: |
